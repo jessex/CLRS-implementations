@@ -26,6 +26,8 @@ For example, the Ruby implementation of the `FIND-MAXIMUM-SUBARRAY` algorithm on
 Each file will include a brief commented header containing algorithm metadata, including the page and chapter in which it first appears in the text, its time complexity expressed in Big-O notation and anything else of note.
 
 Any code that is to be utilized by different algorithms will be stored in a sub-directory which is generally named by the category of algorithm that is using it. For instance, a custom `Node` data structure to be used in various graph algorithms for the Python implementations might be found in `python/graph/node.py`. 
+<br>
+*Note*: Because of Python import rules, the standard `import X` or `from X import *` statements will not work with these file names as you will receive a `SyntaxError: invalid token` due to the numerical prefix. As such, to import, say `0018insertionsort.py`, one must either a) use the statement `x = __import__('0018insertionsort')`, which places the module within the *x* namespace or b) change the file name.
 
 ## Running the Code
 
