@@ -1,5 +1,6 @@
 # FIND-MAX-CROSSING-SUBARRAY(A, low, mid, high)
-# Finds the maximum subarray in A which crosses the midpoint of the array 
+# Finds the maximum subarray in A which crosses the midpoint of the array and
+# returns the starting index, the ending index and the sum of the subarray 
 # O(n)
 # Chapter 4, Page 71
 
