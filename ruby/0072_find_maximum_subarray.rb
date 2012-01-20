@@ -8,7 +8,7 @@ require '0071_find_max_crossing_subarray'
 
 def find_maximum_subarray(a, low, high)
   if high == low
-    return [low, high, a[low]]
+    [low, high, a[low]]
   else
     mid = (low + high) / 2
 
