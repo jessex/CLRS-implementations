@@ -7,7 +7,6 @@ def randomize_in_place(a)
   n = a.length
   for i in 0..n - 1
     random_index = i + rand(n - i)
-    puts random_index
 
     temp = a[i]
     a[i] = a[random_index]
