@@ -14,7 +14,7 @@ The following is a list of the languages to be found in this collection:
 
 * Python
 * Ruby
-* Scheme (*planned*)
+* Scheme
 * Haskell (*planned*)
 * Scala (*planned*)
 
